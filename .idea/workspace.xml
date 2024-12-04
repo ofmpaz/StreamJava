@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="624ce1e2-59e8-447e-afde-4b9752a5aaf6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Excecoes/DadosPessoais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/AdionaDadosAoArquivoExistente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/AdionaDadosAoArquivoExistente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/CriandoArquivoTxt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/CriandoArquivoTxt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stream/ReceberDadosDoLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stream/ReceberDadosDoLivro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +55,24 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DadosPessoais">
+  <component name="RunManager" selected="Application.AdionaDadosAoArquivoExistente">
+    <configuration name="AdionaDadosAoArquivoExistente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.AdionaDadosAoArquivoExistente" />
+      <module name="Dio--trilha--java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AgendaContato" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collections.set.agendamento.AgendaContato" />
       <module name="Dio--trilha--java" />
@@ -71,25 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarrinhoDeCompras" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.List.CarrinhoDeCompras" />
+    <configuration name="CriandoArquivoTxt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.CriandoArquivoTxt" />
       <module name="Dio--trilha--java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConjuntoConvidado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.set.ConjuntoConvidado" />
-      <module name="Dio--trilha--java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collections.set.*" />
+          <option name="PATTERN" value="Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListaDeTarefas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.List.ListaDeTarefas" />
+    <configuration name="ReceberDadosDoLivro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.ReceberDadosDoLivro" />
       <module name="Dio--trilha--java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.List.*" />
+          <option name="PATTERN" value="Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AdionaDadosAoArquivoExistente" />
+        <item itemvalue="Application.CriandoArquivoTxt" />
+        <item itemvalue="Application.ReceberDadosDoLivro" />
         <item itemvalue="Application.DadosPessoais" />
         <item itemvalue="Application.AgendaContato" />
-        <item itemvalue="Application.ConjuntoConvidado" />
-        <item itemvalue="Application.CarrinhoDeCompras" />
-        <item itemvalue="Application.ListaDeTarefas" />
       </list>
     </recent_temporary>
   </component>
@@ -144,11 +146,29 @@
       <workItem from="1721330028368" duration="5277000" />
       <workItem from="1721515927459" duration="9481000" />
       <workItem from="1721658105710" duration="2912000" />
-      <workItem from="1730470921452" duration="2105000" />
+      <workItem from="1730470921452" duration="3304000" />
+      <workItem from="1730584394351" duration="1167000" />
+      <workItem from="1733179286686" duration="2791000" />
+      <workItem from="1733229418405" duration="2034000" />
+      <workItem from="1733238872545" duration="633000" />
+      <workItem from="1733252607444" duration="404000" />
+      <workItem from="1733269246388" duration="2039000" />
+      <workItem from="1733314739970" duration="7950000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
