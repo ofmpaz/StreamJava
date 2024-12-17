@@ -2,7 +2,7 @@ package Stream;
 
 import java.io.*;
 
-public class AdionaDadosAoArquivoExistente {
+public class AdicionaDadosAoArquivoExistente {
 
     public static void copiarArquivo() throws IOException {
 
