@@ -15,7 +15,7 @@ public class AdicionaDadosAoArquivoExistente {
 
         // Padrão decorator
         BufferedReader br = new BufferedReader(new FileReader(nomeArquivo));
-        String line = br.readLine();
+        String liness = br.readLine();
         
         String nomeCopy = nomeArquivo.substring(0, nomeArquivo.indexOf(".")).concat(".copy.txt");
         File copy = new File(nomeCopy);
@@ -23,12 +23,12 @@ public class AdicionaDadosAoArquivoExistente {
         BufferedWriter bw = new BufferedWriter(new FileWriter(copy.getName()));
 
         do{
-            bw.write(line);
+            bw.write(liness);
             bw.newLine();
             bw.flush();
-            line = br.readLine();
+            liness = br.readLine();
 
-        } while(!(line == null));
+        } while(!(liness == null));
 
         System.out.printf("Arquivo \"%s\" copiado com sucesso! %n", file.getName());
         System.out.printf("Arquivo \"%s\" Copia criado com sucesso com sucesso! %n☺", copy.getName());
